@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calc.css" />
+</head>
+<body>
+    <div class="container">
+        <img src="cinamon.jpeg" class="imagem-cinamoon" width="160px">
+        <div class="input-area">
+            <div class="input-group">
+                <input type="text" id="nome" placeholder="Informe o nome"> 
+            </div>
+            <div class="input-group">
+                <input type="number" id="idade" placeholder="Informe a idade"> 
+            </div>
+            <div class="input-group">
+                <input type="number" id="peso" placeholder="Informe o peso em kg"> 
+            </div>
+            <div class="input-group">
+                <input type="number" id="altura" placeholder="Informe a altura em cm"> 
+            </div>
+            <div class="input-group">
+                <input type="text" id="sexo" placeholder="Informe o sexo (masc/fem)"> 
+            </div>
+
+            <div class="atividade-container">
+                <p class="atividade-titulo">Nivel de Atividade Física:</p>
+            <label><input type="radio" name="atividade" value = "1.2">Sedentário</label><br>
+            <label><input type="radio" name="atividade" value = "1.55">Levemente ativo</label><br>
+            <label><input type="radio" name="atividade" value = "1.85">Moderadamente ativo</label><br>
+            <label><input type="radio" name="atividade" value = "2.2">Muito ativo</label><br>
+            <label><input type="radio" name="atividade" value = "2.4">Extremamente ativo</label><br>
+        </div>
+            <button type="button" onclick="cadastrar()">Enviar</button>
+        </div>
+    </div>
+
+    <script src="in.js"></script>
+</body>
+</html>

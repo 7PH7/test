@@ -1,0 +1,73 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+header{
+width: 100%;
+padding: 20px 0;
+text-align: center;
+
+}
+
+#titulo {
+    font-size: 3rem;
+    margin: 0;
+    color: #ffffff;
+}
+
+.container{
+    flex:1;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%
+}
+.calculadora {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4facfe;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#login:hover {
+    background-color: #00c3ff;
+}
+
+/*.imagem-cinamoon canto {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;  → Muda para left: 20px se quiser no canto esquerdo 
+    width: 300px;
+    height: auto;
+    z-index: 10;
+}*/
+
+.imagem-dentro {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}

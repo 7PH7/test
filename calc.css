@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+input {
+    width: 360px;
+    padding: 14px 18px;
+    margin: 10px 15px;
+    border-radius: 10px;
+    border: 1px;
+    font-size: 1rem;
+    outline: none;
+    
+}
+
+input::placeholder {
+    color: #999;
+}
+
+button {
+    width: 300px;
+    padding: 14px 0;
+    margin-top: 20px;
+    background-color: #4facfe;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00c3ff;
+}
+
+.input-group {
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 12px; /* ADICIONADO: borda arredondada */
+}
+
+.input-group:last-child {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+/*daqui pra baixo vai ser só do radio de atividades*/
+.atividade-container{
+    background-color: #f0f0f0;
+    padding:5px;
+    border-radius: 8px;
+    align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+    display:inline-block;
+    flex-direction: column; /* uma opção abaixo da outra */
+    gap: 3px; /* espaçamento entre opções */
+    margin-top: 15px;
+    
+} 
+
+.atividade-container label {
+    display: block;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 0.95rem;
+    margin: 0;
+    cursor:pointer;
+}
+
+.atividade-container label:hover{
+    background-color: #e0e0e0; /*quando deixa o mouse em cima*/
+}
+
+.atividade-container input[type="radio"]{
+    
+    accent-color: #4facfe; /*cor do botao de selecao*/
+    transform: scale(1.2); /*aumenta o tamanho do botao*/
+}
+.atividade-titulo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
